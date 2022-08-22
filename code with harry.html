@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // array method 
+        // let num=[1,2,3,4,5]
+        // let b=num.toString();  // b is know a string
+        //  let c = num.join("_");
+        // document.write(c ,typeof c);
+
+        //      let r = num.push(33)
+        //      document.write(num ,r);
+
+        //delete in array 
+        //     let n=[12,34,45,67,767,88]
+        //     let nmore=[12,34,45,67,767,88,56,98,45,234]
+        //     let new_array=n.concat(nmore)
+        //     document.write(new_array);
+        // //sort method
+        // let compare=(a,b)=>{
+        //    return a-b    
+        // }
+        // let a=[[,,,,,,,,,,,,,,,,1,3,5,7,86,4,74,8]]
+        //     a.sort(compare);
+        //     document.write(a)
+
+
+        //   //splice in array
+        //   let n=[12,34,45,67,767,88]
+        //   n.splice(2,3,3,12,34,54,7777)
+        //   document.write(n);
+
+        //Loops in array
+        //   let num=[3,5,5,1,2,4]
+        //  for(let i=0;i<num.length;i++)
+        // //    for(let i of num)
+        //    {
+        //      document.write(num[i])
+        //   }
+        // num.forEach((element) => {
+        //     document.write(element*element)
+        // })
+
+        // // array.from
+
+        // let name="imran";
+        // let arr=Array.from(name)
+        // document.write(arr);
+
+        // //for off
+        // for(let i of num){
+        //     document.write(i)
+        // }
+        //Map in array
+
+        // let arr=[23,454,67,32]
+        // let a=arr.map((value,index)=>{
+        //     document.write(value)
+        //     return value+1;
+        // })
+        // document.write(a)
+
+
+        //array filter
+        // let arr=[23,454,67,32]
+        //     let a=arr.filter((a2)=>{
+        //         return a2<35;
+        //     })
+        //     document.write(a)
+
+        //Reduce Method
+
+        // let arr3=[1,3,3,,5,2,3,5]
+        // let newarrr3=arr3.reduce((h1,h2)=>{
+        //     return h1*h2
+        // })
+        // document.write(newarrr3);
+
+        //Practice ch#5 practice
+
+        // let arr=[1,2,3,4,5,5,66]
+        // let a;
+        // do{
+        //  a=prompt("Enter a Number")
+        // a=Number.parseInt(a);
+        // arr.unshift (a) 
+        // }
+        // while(a!=0);
+        // document.write(arr);
+
+        //q3 3
+
+        // let arr=[12,34,20,30,40,54,67]
+        // let arr2=arr.filter((a)=>{
+        //    return a%10==0
+        // })
+        // document.write(arr2);
+
+
+
+        // let arr=[1,3,2,3,5,6]
+        // let arr2=arr.reduce((a1, a2)=>{
+        //    return a1*a2
+        // })
+        // document.write(arr2);
+        // let score = 100;
+
+        // let num = Math.floor(Math.random() * (100 - 1 + 1) + 1);
+        // console.log(num);
+        // let guess_result = prompt("enterr any number");
+        // exercise();
+
+        // //Exercise 1
+        // // let num=Math.random();
+        // function exercise() {
+        //     if (guess_result > num) {
+
+        //         score -= 5;
+        //         guess_result = prompt("enterr any number");
+        //         exercise();
+        //         // document.write("number greater then the generated");
+        //     }
+        //     else if (guess_result < num) {
+        //         score -= 5;
+        //         guess_result = prompt("enterr any number");
+        //         exercise();
+        //         // document.write("number less then the generated");
+
+        //     }
+        //     else {
+        //         document.write("number is correct");
+
+        //         console.log(score);
+        //     }
+        // }
+
+        //            //let  guess_result=23;
+
+
+
+        // for lop to add numbers
+
+
+        // for (let i = 0; i <= a.length; i++)
+        //     function set(a, b) {
+        //         a + b;
+
+        //     }
+        // set();
+        // function add() {
+        //     let a = [12, 3, 6, 8, 9, 8, 7, 9, 7,];
+        //     let sum = 1;
+        //     for(let i = 0;i<a.length;i++){
+        //         sum *= a[i];
+        //     }
+        // }
+        window.onload=function(){
+
+   let length=prompt("enter array length");
+   let array=[];
+   for(let i=0; i<length;i++){
+    let ar=prompt("enter numbers");
+    let b=parseInt(ar);
+    array[i]=b;
+   }
+function sum(array){
+let add=array.reduce=((element1,element2)=>{
+    return element1+element2
+        })
+        console.log(sum);
+    }
+        let c=prompt("enter third number");
+   if(c==1){
+    sum(array);
+ 
+   }
+   else if(c==2){
+    mul(array);
+}
+
+
+
+
+
+
+        
+   
+        }
+
+
+
+    </script>
+</body>
+
+</html>

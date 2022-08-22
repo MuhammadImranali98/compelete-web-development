@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<h1>javascript program>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>java script program</h1>
+    <script>
+           window.onload=function(){
+
+let length=prompt("enter array length");
+let array=[];
+for(let i=0; i<length;i++){
+ let ar=prompt("enter numbers");
+ let b=parseInt(ar);
+ array[i]=b;
+}
+function sum(array)  {
+    let add=array.reduce((value1,value2)=>{
+            return value1+value2
+// let add=array.reduce=((element1,element2)=>{
+//  return element1 + element2
+     })
+     console.log(add);
+ }
+     let c=prompt("enter third number");
+if(c==1){
+ sum(array);
+
+}
+else if(c==2){
+ mul(array);
+}
+
+     
+
+     }
+//         window.onload = function () {
+//             let length = prompt("enter legth of an array");
+//             let array =[];
+//             for (let i = 0; i < length; i++) {
+//                 let a = prompt("Enter array number");
+//                 let arr = parseInt(a);
+//                 array[i] = arr;
+//                 // let B = arr;
+//                 // if (B == 1) {
+//                 //     sum *= arr[i];
+//                 //     if (B == 0) {
+//                 //         sum += arr[i];
+//                 //     }
+
+//                 // }
+//             }
+//             let value = prompt("enter legth of an array");
+
+// if(value==1) {
+//     add(array);
+   
+//     }
+// else if(value==2){
+//     multiple(array);
+
+// }
+     
+
+// function multiple() {
+            
+//         //     let mul = 1;
+//         //     for(let i = 0;i<array.length;i++){
+//         //         mul*= array[i];
+             
+//         //     }
+//         //     console.log(mul);
+//         // }
+//             let c=array.reduce((h1,h2)=>{
+//                 return h1*h2
+//             })
+//             console.log(c);
+//         }
+
+//         function add(array) {
+            
+//             // let sum = 0;
+//             // for(let i = 0;i<array.length;i++){
+//             //     sum += array[i];
+//             // }
+          
+//             // console.log(sum);
+//             let sum=array.reduce((value1,value2)=>{
+//                 return value1+value2
+//             }
+//             )
+//             console.log(sum); 
+//         }
+//     }
+
+    </script>
+</body>
+
+</html>
